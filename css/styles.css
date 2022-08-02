@@ -50,7 +50,9 @@ img {
    background-color: #F5F4FA;;
    cursor: pointer;
  }
-
+.list {
+   text-decoration: none;
+}
 
 
 /* header-container */
