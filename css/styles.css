@@ -400,6 +400,9 @@ header {
    color:  #2196F3;
 }
 /* portfolio */
+.portfolio-conteiner {
+   padding-bottom: 94px;
+}
 
 .portfolio-fillter {
    display: flex;
@@ -420,6 +423,7 @@ header {
    display: inline-block;
    list-style: none; 
    margin: 30px; 
+   
 }
 .portfolio-photo {
    width: 300px;
