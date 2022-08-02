@@ -405,7 +405,8 @@ header {
    display: flex;
    list-style: none;
    margin-left: 350px;
-   margin-top: 180px;
+   padding-top: 100px;
+   padding-bottom: 56px;
 }
 .fillter-items {
    list-style: none; 
