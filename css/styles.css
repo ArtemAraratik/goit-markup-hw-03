@@ -66,23 +66,25 @@ header {
    height: 80px;
    border: 0,5px solid #ECECEC;
    background-color: var(--header-background-color);
+   padding-top: 24px;
+   padding-left: 45px;
 }
 
 /* logo */
 
 .logo-web {
-    font-family: raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--logo-web-color);
-    text-decoration: none;
-    width: 145px;
-    height: 31px;
-    position: absolute;
-    left: 215px;
-    top: 24px;
+   position: absolute;
+   width: 145px;
+   height: 31px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   color: var(--logo-web-color);
+   text-decoration: none;
+   
         
 }
 .logo-studio {
@@ -101,14 +103,20 @@ header {
 .logo-studio-footer:hover, .logo-studio-footer:focus {
    color: #2196F3
 }
+.logo-web-footer {
+   width: 145px;
+   height: 31px;
+   left: 215px;
+   margin-top: 60px;
 
+}
 /* menu-nav */
 .nav {
    width: 281px;
    height: 16px;
-   left: 453px;
-   top: 32px;
-   margin-left: 207px;
+   margin-left: 150px;
+   margin-top: 10px;
+   
 }
 
 .nav-list { 
@@ -139,17 +147,13 @@ header {
  }
  .header-contact-list {
    display: flex;
-   margin-left: 800px;
-   margin-bottom: 32px;
-   
+   margin-left: 750px;
  }
- .header-contact-items {
-    color: white;
- }
+
  .header-contact-link {
     text-decoration: none;
     padding: 25px;
-    color: #757575;'
+    color: #757575;
  }
    
  .header-contact-link:hover, .header-contact-link:focus {
@@ -336,15 +340,16 @@ header {
     background-color: #2F303A;
     height: 252px;
  }
- footer>.container> .logo-web, .address-list {
+ footer>.container> .logo-web-footer, .address-list {
    margin-left: 215px;
    margin-top: 60px;
+   list-style: none;
  }
- .logo-web-footer {
+ footer>.container>.logo-web-footer {
    width: 145px;
    height: 31px;
-   left: 215px;
-   top: 2154px;
+   margin-left: 215px;
+   margin-top: 60px;
    font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
@@ -352,15 +357,10 @@ header {
    line-height: 31px;
    letter-spacing: 0.03em;
    color: #2196F3;
-   padding-top: 60px;
-   padding-left: 215px;
-   padding-bottom: 161px;
    text-decoration: none;
    
  }
- .address-items {
-   color: #2F303A;
- }
+ 
  .address-map {
     font-family: 'Roboto';
     font-style: normal;
@@ -405,6 +405,7 @@ header {
    display: flex;
    list-style: none;
    margin-left: 350px;
+   margin-top: 180px;
 }
 .fillter-items {
    list-style: none; 
