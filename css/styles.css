@@ -381,7 +381,7 @@ margin-right: 50px;
 }
 .fillter-items {
    list-style: none; 
-   padding: 8px; 
+   margin: 8px; 
 }
 .portfolio-item {
    box-sizing: border-box;
