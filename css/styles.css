@@ -30,7 +30,8 @@ ul {
   
 }
 .section {
-   margin: 94px;
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 img {
    display: block;
@@ -232,9 +233,7 @@ margin-right: 50px;
     letter-spacing: 0.03em;
     color: #757575;
  }
- .credo-block{
-   padding-top: 0;
- }
+
  /* what-we-do-block */
  .what-we-do-block {
    height: 600px;
@@ -242,7 +241,7 @@ margin-right: 50px;
  }
  .what-we-do-list {
    display: flex;   
-   margin: 0 auto;
+   
  }
  .what-we-do-items {
   text-decoration: none;
@@ -264,7 +263,6 @@ margin-right: 50px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
-    padding-top: 94px;
     margin-bottom: 50px;
  }
  /* team-block */
@@ -376,15 +374,10 @@ margin-right: 50px;
    color:  #2196F3;
 }
 /* portfolio */
-.portfolio {
-   margin-top: 0;
-}
 .portfolio-fillter {
-   display: flex;
    list-style: none;
-   margin-left: 350px;
-   padding-top: 100px;
-   padding-bottom: 56px;
+   display: flex;
+   justify-content: center;
 }
 .fillter-items {
    list-style: none; 
@@ -411,6 +404,8 @@ margin-right: 50px;
    line-height: 36px;
    letter-spacing: 0.06em;
    color: #212121;
+   margin-top: 20px;
+   margin-bottom: 4px;
 }
 .portfolio-p {
    font-family: 'Roboto';
