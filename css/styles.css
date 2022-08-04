@@ -243,8 +243,7 @@ margin-right: 50px;
    padding-top: 0;
  }
  .what-we-do-list {
-   display: flex;   
-   
+   display: flex;     
  }
  .what-we-do-items {
   text-decoration: none;
@@ -255,9 +254,7 @@ margin-right: 50px;
  .what-we-do-block>img {
     width: 370px;
     height: 294px;
-    padding-bottom: 94px;
-   
-   
+    padding-bottom: 94px; 
  }
  .title-h2 {
     font-weight: 700;
@@ -422,3 +419,4 @@ margin-right: 50px;
    letter-spacing: 0.03em;
    color: #757575;
 }
+
